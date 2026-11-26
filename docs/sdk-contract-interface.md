@@ -1,6 +1,6 @@
 # SDK v2 to Network vault contract interface
 
-This is the bridge document between [Axionvera SDK v2](https://github.com/Axionvera/axionvera-sdk)
+This is the bridge document between [Axionvera SDK v2](https://github.com/Axionvera-labs/axionvera-sdk)
 and this Network vault. SDK and Network contributors should treat the contract
 symbols, argument order, types, return values, and event topics below as the
 invoke surface. Future issues should align to this mapping instead of
@@ -9,7 +9,7 @@ re-deriving it from either repo in isolation.
 | Side | Source of truth |
 | --- | --- |
 | Network vault | `contracts/vault-contract/src/lib.rs` |
-| SDK v2 wrapper | `packages/core/src/contracts/vault.ts` in [axionvera-sdk](https://github.com/Axionvera/axionvera-sdk) |
+| SDK v2 wrapper | `packages/core/src/contracts/vault.ts` in [axionvera-sdk](https://github.com/Axionvera-labs/axionvera-sdk) |
 | SDK v2 event types | `packages/core/src/events.ts` in axionvera-sdk |
 
 For automated compatibility checks, use the versioned interface document at
